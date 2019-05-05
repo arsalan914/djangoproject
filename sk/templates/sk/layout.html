@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SK Projects</title>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+
+    <header class="container">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">SK Construction</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="sass.html">Projects</a></li>
+                    <!--<li><a href="badges.html"></a></li>-->
+                    <li><a href="collapsible.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        {% block content %}
+        {% endblock %}
+
+        <a class="center-algin btn" href="/admin">Admin Login</a>
+    </div>
+
+
+      <div class="container page-footer">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">About Us</h5>
+            <p class="grey-text text-lighten-4">
+              <p> Kashif Saleem Ghuman
+                  <br/>National College of Art (NCA) Certified Architect </p>
+              <p> Mobile: 03334426102 </p>
+              <p> Office Address: 4th floor ,building 615, sector g, phase 6 ,Lahore </p>
+            </p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
